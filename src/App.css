@@ -1,0 +1,24 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.color-selectors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
